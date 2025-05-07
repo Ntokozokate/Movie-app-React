@@ -63,10 +63,13 @@
   align-items: center;
   justify-content: center;
   transition: background-color 0.2s;
+  cursor: pointer;
+  transition: color 0.3s ease;
 }
 
 .favorite-btn:hover {
   background-color: rgba(0, 0, 0, 0.8);
+  color: #ff4757;
 }
 
 .favorite-btn.active {
